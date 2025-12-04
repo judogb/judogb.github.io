@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judo Brown Belt Grading</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth transition for the accordion opening */
+    .accordion-content {
+      transition: max-height 0.3s ease-out, padding 0.3s ease;
+      max-height: 0;
+      overflow: hidden;
+    }
+
+    .accordion-content.active {
+      max-height: 500px;
+      /* Arbitrary large height to allow expansion */
+    }
+  </style>
+</head>
+
+<body class="bg-stone-100 min-h-screen font-sans text-stone-800">
+
+  <div class="max-w-2xl mx-auto py-10 px-4">
+    <!-- Accordion Container -->
+    <div class="bg-white shadow-xl rounded-lg overflow-hidden border border-stone-200">
+
+      <!-- Item 1: Sode-tsuri-komi-goshi -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🥤✨,💸 Sode-tsuri-komi-goshi</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/sode-tsuri-komi-goshi.webp" alt="Sode-tsuri-komi-goshi"
+              class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Sode-tsuri-komi-goshi';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: Sumi-gaeshi -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🍣💸 Sumi-gaeshi</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/sumi-gaeshi.webp" alt="Sumi-gaeshi" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Sumi-gaeshi';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: Yoko-gake -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🪀🪝 Yoko-gake</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/yoko-gake.webp" alt="Yoko-gake" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Yoko-gake';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4: Ko-uchi-gake-maki-komi -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🚌🪝🌸, Ko-uchi-gake-maki-komi</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/ko-uchi-gake-maki-komi.webp" alt="Ko-uchi-gake-maki-komi"
+              class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Ko-uchi-gake-maki-komi';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: Ushiro-goshi -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">Ushiro-goshi</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/ushiro-goshi.webp" alt="Ushiro-goshi" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Ushiro-goshi';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6: Ura-nage -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">Ura-nage</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/ura-nage.webp" alt="Ura-nage" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Ura-nage';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 7: Uki-otoshi -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🏋️‍♀️ Uki-otoshi</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/uki-otoshi.webp" alt="Uki-otoshi" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Uki-otoshi';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 8: Koshi-guruma -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🧺🎡 Koshi-guruma</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/koshi-guruma.webp" alt="Koshi-guruma" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Koshi-guruma';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 9: Kata-ha-jime -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🗡️🤣🪱 Kata-ha-jime</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/kata-ha-jime.webp" alt="Kata-ha-jime" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Kata-ha-jime';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 10: Hadaka-jime -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">🛖🪱 Hadaka-jime</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/hadaka-jime.webp" alt="Hadaka-jime" class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=Hadaka-jime';">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 11: San-gaku-jime -->
+      <div class="border-b border-stone-200 last:border-0">
+        <button onclick="toggleAccordion(this)"
+          class="w-full text-left px-6 py-4 bg-amber-800 hover:bg-amber-900 text-white font-semibold flex justify-between items-center transition-colors">
+          <span class="text-lg">☀️🪝🪱 San-gaku-jime</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="accordion-content bg-stone-50">
+          <div class="p-6 flex justify-center">
+            <img src="img/san-gaku-jime.webp" alt="San-gaku-jime"
+              class="rounded shadow-md max-w-full h-auto object-cover"
+              onerror="this.onerror=null; this.src='https://placehold.co/600x400/EEE/31343C?text=San-gaku-jime';">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(button) {
+      // Find the specific content panel associated with this button
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('svg');
+
+      // Toggle the 'active' class on the content
+      content.classList.toggle('active');
+
+      // Rotate the icon based on state
+      if (content.classList.contains('active')) {
+        icon.classList.add('rotate-180');
+      } else {
+        icon.classList.remove('rotate-180');
+      }
+
+      // Optional: Close other panels when one opens (Comment out to allow multiple open)
+      document.querySelectorAll('.accordion-content').forEach(item => {
+        if (item !== content) {
+          item.classList.remove('active');
+          item.previousElementSibling.querySelector('svg').classList.remove('rotate-180');
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
